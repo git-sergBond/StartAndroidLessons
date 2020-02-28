@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnStart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/start"></Button>
+
+            <Button
+                android:id="@+id/btnStart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/start"></Button>
+
+            <Button
+                android:id="@+id/btnStart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/start"></Button>
+
+            <Button
+                android:id="@+id/btnStart4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/start"></Button>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvInfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/tvInfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/tvInfo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/tvInfo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnCancel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btnCancel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btnCancel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btnCancel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/cancel" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnStatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/status"></Button>
+
+            <Button
+                android:id="@+id/btnStatus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/status"></Button>
+
+            <Button
+                android:id="@+id/btnStatus3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/status"></Button>
+
+            <Button
+                android:id="@+id/btnStatus4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclick"
+                android:text="@string/status"></Button>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

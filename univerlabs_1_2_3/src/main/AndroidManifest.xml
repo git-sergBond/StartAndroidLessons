@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.univerlabs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lab3_showClassmates_part2"></activity>
+        <activity android:name=".lab3_part2_main" />
+        <activity android:name=".lab3_showClassmates" />
+        <activity android:name=".lab3_main" />
+        <activity android:name=".lab2_activity4" />
+        <activity android:name=".lab2_activity3" />
+        <activity android:name=".activity_lab2_activity2" />
+        <activity android:name=".lab2_activity2" />
+        <activity android:name=".lab2_activity1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

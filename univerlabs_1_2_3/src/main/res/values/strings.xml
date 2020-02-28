@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UniverLabs</string>
+    <string name="lab3_list_of_group_mate">Одногрупники</string>
+    <string name="lab3_add_student">Добавить одногрупника</string>
+    <string name="lab3_rename_last">Переименовать последнего</string>
+    <string name="lab3_header_showClassmates">Одногрупники</string>
+    <string name="title_activity_lab3_show_classmates_part2">lab3_show_classmates_part2</string>
+</resources>
