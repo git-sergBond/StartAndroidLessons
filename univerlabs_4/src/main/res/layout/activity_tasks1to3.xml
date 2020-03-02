@@ -19,7 +19,39 @@
             android:onClick="btnTask1"/>
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnTask2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnTask2"
+            android:text="TASK2" />
+
+        <TextView
+            android:id="@+id/tvStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btntask3"
+            android:text="Task3" />
+
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />

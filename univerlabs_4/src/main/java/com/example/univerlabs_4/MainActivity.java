@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, tasks1to3.class);
         startActivity(i);
     }
+
+    public void launchLab4(View view) {
+        Intent i = new Intent(this,lab4_main.class);
+        startActivity(i);
+    }
 }
