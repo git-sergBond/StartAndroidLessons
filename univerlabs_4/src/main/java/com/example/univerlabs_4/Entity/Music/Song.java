@@ -1,16 +1,25 @@
 package com.example.univerlabs_4.Entity.Music;
 
+import com.google.gson.annotations.Expose;
+
+import java.util.Date;
+
 public class Song {
     private long id;
     private String name;
     private String artist;
-    private String addTime;
+    //@Expose
+    //private Date addTime;
+    private long duration;
+    private String icon;
 
-    public Song(long id, String name, String artist, String addTime) {
+    public Song(long id, String name, String artist, long durationSec, String icon) {
         this.id = id;
         this.name = name;
         this.artist = artist;
-        this.addTime = addTime;
+        //this.addTime = new Date();
+        setDuration(durationSec);
+        this.icon = icon;
     }
 
     public long getId() {
@@ -36,12 +45,26 @@ public class Song {
     public void setArtist(String artist) {
         this.artist = artist;
     }
-
-    public String getAddTime() {
+/*
+    public Date getAddTime() {
         return addTime;
     }
+*/
+    //Sec
+    public long getDuration() {
+        return duration;
+    }
 
-    public void setAddTime(String addTime) {
-        this.addTime = addTime;
+    //Sec
+    public void setDuration(long sec) {
+        this.duration = sec;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
     }
 }
