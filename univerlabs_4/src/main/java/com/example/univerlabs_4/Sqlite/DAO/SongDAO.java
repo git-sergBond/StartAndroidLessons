@@ -1,6 +1,7 @@
 package com.example.univerlabs_4.Sqlite.DAO;
 
 import androidx.room.Dao;
+import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
@@ -15,4 +16,7 @@ public interface SongDAO {
 
     @Insert
     void insert(Song song);
+
+    @Query("DELETE FROM Song")
+    void nukeTable();
 }

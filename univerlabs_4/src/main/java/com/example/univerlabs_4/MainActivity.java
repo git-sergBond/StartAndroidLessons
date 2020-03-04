@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.univerlabs_4.Sqlite.AppDataBase;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,5 +24,16 @@ public class MainActivity extends AppCompatActivity {
     public void launchLab4(View view) {
         Intent i = new Intent(this,lab4_main.class);
         startActivity(i);
+    }
+
+    public void deleteDataBaseLab4(View view) {
+        new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                AppDataBase dataBase = MyApplication.getDataBase();
+                dataBase.songDAO().nukeTable();
+            }
+        }.start();
     }
 }

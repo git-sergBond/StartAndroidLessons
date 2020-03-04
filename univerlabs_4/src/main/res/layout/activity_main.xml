@@ -22,9 +22,19 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="launchLab4"
         android:text="Num 4"
         app:layout_constraintStart_toStartOf="@id/task1_3"
-        app:layout_constraintTop_toBottomOf="@id/task1_3"
-        android:onClick="launchLab4"/>
+        app:layout_constraintTop_toBottomOf="@id/task1_3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteDataBaseLab4"
+        android:text="clear database"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
