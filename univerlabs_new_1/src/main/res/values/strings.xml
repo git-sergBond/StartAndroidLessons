@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">svetofor</string>
+    <string name="svetofor">Светофор!</string>
+    <string name="svetofor_red">Красный</string>
+    <string name="svetofor_yel">Желтый</string>
+    <string name="svetofor_gr">Зеленый</string>
+</resources>

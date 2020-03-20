@@ -3,11 +3,35 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/P0031firstapp" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/geoquiz" />
+            <option value="$PROJECT_DIR$/p0080handler" />
+            <option value="$PROJECT_DIR$/p0811_handlersimplemessage" />
+            <option value="$PROJECT_DIR$/p0821_handleradvmessage" />
+            <option value="$PROJECT_DIR$/p0831_handlermessagemanage" />
+            <option value="$PROJECT_DIR$/p0841_handlerrunnable" />
+            <option value="$PROJECT_DIR$/p0841_handlerrunnable2" />
+            <option value="$PROJECT_DIR$/p0851_runnableuithread" />
+            <option value="$PROJECT_DIR$/p0861_asynctask" />
+            <option value="$PROJECT_DIR$/p0871_asynctaskparams" />
+            <option value="$PROJECT_DIR$/p0881_asynctaskresult" />
+            <option value="$PROJECT_DIR$/p0891_asynctaskcancel" />
+            <option value="$PROJECT_DIR$/p0901_asynctaskstatus" />
+            <option value="$PROJECT_DIR$/p0911_asynctaskrotate" />
+            <option value="$PROJECT_DIR$/univerlabs_1_2_3" />
+            <option value="$PROJECT_DIR$/univerlabs_4" />
+            <option value="$PROJECT_DIR$/univerlabs_5" />
+            <option value="$PROJECT_DIR$/univerlabs_6" />
+            <option value="$PROJECT_DIR$/univerlabs_new_1" />
+            <option value="$PROJECT_DIR$/univerlabs_new_2" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

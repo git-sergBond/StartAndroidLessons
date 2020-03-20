@@ -20,7 +20,8 @@ import java.util.concurrent.TimeUnit;
 
 public class tasks1to3 extends AppCompatActivity {
 
-    String baseUrl = "http://192.168.1.85:8080/";
+
+    String baseUrl = "http://10.0.2.2:8080/";
 
     TextView tv1, tv2, tvStats, tvView3;
 
@@ -69,7 +70,7 @@ class Task1 extends AsyncTask<String, String, Void> {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-
+                error.printStackTrace();
             }
         });
 

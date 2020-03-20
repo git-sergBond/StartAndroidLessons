@@ -49,8 +49,8 @@ public class lab4_main extends AppCompatActivity {
 
     String LOG_TAG = "myLOG";
 
-    String baseUrl = "http://192.168.1.85:8080/";
-
+    String baseUrl = "http://10.0.2.2:8080/";
+    //String baseUrl = "http://localhost:8080/";
     SongApi songApi;
 
     ListView songListView;
