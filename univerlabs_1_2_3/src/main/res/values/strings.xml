@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UniverLabs</string>
+    <string name="app_name">Univerlabs_1_2_3</string>
     <string name="lab3_list_of_group_mate">Одногрупники</string>
     <string name="lab3_add_student">Добавить одногрупника</string>
     <string name="lab3_rename_last">Переименовать последнего</string>
